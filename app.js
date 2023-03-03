@@ -22,7 +22,6 @@ app.use(express.static("public"));
 
 
 
-
 // home
 app.get("/", (req, res) => {
     res.render("register")
