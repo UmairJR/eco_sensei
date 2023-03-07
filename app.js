@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose")
 
-const url = "mongodb+srv://admin-umair:umair123@cluster0.fubmtqu.mongodb.net/eco_sensei"
+const url = "url"
 mongoose.connect(url, { useNewUrlParser: true })
 const loginSchema = {
   conid: Number,
